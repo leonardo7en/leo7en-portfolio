@@ -195,7 +195,7 @@ function buildProjectData() {
           <div class="gallery-item">
             <h4>${t.gallery3}</h4>
             <img
-              src="assets/projects/Solicitação.gif"
+              src="assets/projects/solicitacao.gif"
               alt="Toy request Record Producer preview"
               onclick="openImage(this.src)"
             />
@@ -204,7 +204,7 @@ function buildProjectData() {
           <div class="gallery-item">
             <h4>${t.gallery4}</h4>
             <img
-              src="assets/projects/Solicitação de Brinquedos.png"
+              src="assets/projects/solicitacao-brinquedos.png"
               alt="Toy request automation flow"
               onclick="openImage(this.src)"
             />
