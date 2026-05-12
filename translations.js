@@ -33,7 +33,7 @@ const translations = {
 
     // ABOUT
     aboutTitle: 'About Me',
-    aboutText1: 'I started my professional journey in the industrial sector, working with production processes, machine operation and quality control — developing operational discipline, attention to detail and a continuous improvement mindset. Later, I transitioned into commercial operations and customer-facing roles, gaining experience with ERP systems (TOTVS), CRM routines, internal reporting and operational indicators.',
+    aboutText1: 'I started my professional journey in the industrial sector, working with production processes, machine operation and quality control, developing operational discipline, attention to detail and a continuous improvement mindset. Later, I transitioned into commercial operations and customer-facing roles, gaining experience with ERP systems (TOTVS), CRM routines, internal reporting and operational indicators.',
     aboutText2: "Today my focus is the ServiceNow platform. I'm studying for the Certified System Administrator (CSA) exam and developing hands-on projects with ITSM, Flow Designer, App Engine Studio, Service Catalog and Service Portal, while strengthening my JavaScript fundamentals. My goal is a first opportunity as a Junior ServiceNow Developer, Admin, Support or Consultant.",
 
     // PROJECTS
@@ -51,7 +51,7 @@ const translations = {
     projectTitle:   'Toy Store Service Portal',
     projectProblem: 'Internal toy requests were handled by email with no tracking, no approval trail and no visibility into request status.',
     projectSolution:'A custom ServiceNow portal with Record Producer, branded Service Portal interface, Flow Designer automation, critical priority email notifications, analytics dashboard and role-based access control.',
-    projectImpact:  'Eliminated manual email-based requests — all items now tracked end-to-end with automated notifications and operational visibility.',
+    projectImpact:  'Eliminated manual email-based requests, all items now tracked end-to-end with automated notifications and operational visibility.',
 
     // SKILLS
     skillsTitle:       'Skills',
@@ -129,7 +129,7 @@ const translations = {
 
     // ABOUT
     aboutTitle: 'Sobre Mim',
-    aboutText1: 'Iniciei minha trajetória no setor industrial, atuando com processos produtivos, operação de máquinas e controle de qualidade — desenvolvendo disciplina operacional, atenção aos detalhes e mentalidade de melhoria contínua. Mais tarde, migrei para operações comerciais, adquirindo experiência com ERP (TOTVS), CRM, relatórios internos e indicadores operacionais.',
+    aboutText1: 'Iniciei minha trajetória no setor industrial, atuando com processos produtivos, operação de máquinas e controle de qualidade, desenvolvendo disciplina operacional, atenção aos detalhes e mentalidade de melhoria contínua. Mais tarde, migrei para operações comerciais, adquirindo experiência com ERP (TOTVS), CRM, relatórios internos e indicadores operacionais.',
     aboutText2: 'Hoje meu foco é a plataforma ServiceNow. Estudo para a certificação CSA e desenvolvo projetos práticos com ITSM, Flow Designer, App Engine Studio, Service Catalog e Service Portal, enquanto aprofundo meus fundamentos em JavaScript. Meu objetivo é uma primeira oportunidade como Desenvolvedor Jr., Admin, Suporte ou Consultor ServiceNow.',
 
     // PROJECTS
@@ -147,7 +147,7 @@ const translations = {
     projectTitle:   'Toy Store Service Portal',
     projectProblem: 'As solicitações internas eram feitas por e-mail, sem rastreamento, sem trilha de aprovação e sem visibilidade do status.',
     projectSolution:'Um portal customizado no ServiceNow com Record Producer, interface personalizada no Service Portal, automação com Flow Designer, notificação por e-mail para prioridades críticas, dashboard analítico e controle de acesso por perfis.',
-    projectImpact:  'Eliminou as solicitações manuais por e-mail — todos os itens agora são rastreados de ponta a ponta com notificações automáticas e visibilidade operacional.',
+    projectImpact:  'Eliminou as solicitações manuais por e-mail, todos os itens agora são rastreados de ponta a ponta com notificações automáticas e visibilidade operacional.',
 
     // SKILLS
     skillsTitle:       'Competências',
