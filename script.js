@@ -291,6 +291,40 @@ function buildProjectData() {
           </div>
         </div>
       `
+    },
+    2: {
+      title: t.project2Title,
+      body: `
+        <p>${t.modal2Intro}</p>
+        <p><strong>${t.modalIncludes}</strong></p>
+        <ul class="modal-list">
+          <li>${t.modal2Item1}</li>
+          <li>${t.modal2Item2}</li>
+          <li>${t.modal2Item3}</li>
+          <li>${t.modal2Item4}</li>
+          <li>${t.modal2Item5}</li>
+        </ul>
+        <div class="modal-gallery">
+          <div class="gallery-item">
+            <h4>${t.gallery2_1}</h4>
+            <img src="assets/projects/incident-list-sync.png.jpeg"
+                 alt="Incident List Synchronization"
+                 onclick="openImage(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <h4>${t.gallery2_2}</h4>
+            <img src="assets/projects/incident-detail-sync.png.jpeg"
+                 alt="Incident Details & Journal Fields"
+                 onclick="openImage(this.src)" />
+          </div>
+          <div class="gallery-item">
+            <h4>${t.gallery2_3}</h4>
+            <img src="assets/projects/integration-app-log.png.png"
+                 alt="Integration App Logs & REST Diagnostics"
+                 onclick="openImage(this.src)" />
+          </div>
+        </div>
+      `
     }
   };
 }

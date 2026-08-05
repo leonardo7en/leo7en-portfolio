@@ -96,7 +96,7 @@
       <p class="eyebrow" data-translate="heroEyebrow">Hi, I'm Leonardo Rodrigues</p>
 
       <h1>
-        <span data-translate="heroTitle">ServiceNow Developer Jr.</span><br />
+        <span data-translate="heroTitle">ServiceNow Developer</span><br />
         <span class="accent" data-translate="heroSubtitle">ITSM &amp; Process Automation</span>
       </h1>
 
@@ -175,13 +175,14 @@
 
       <h2 class="section-title" data-translate="projectsTitle">Projects</h2>
       <p class="section-sub" data-translate="projectsSub">
-        Hands-on ServiceNow project covering Service Portal, Record Producer,
+        Hands-on ServiceNow projects covering Service Portal, Record Producer,
         Flow Designer automation and operational analytics.
       </p>
 
       <div class="projects-grid">
+        
+        <!-- PROJETO 1 -->
         <article class="project-card reveal" aria-label="Project: Toy Store Service Portal">
-
           <div class="project-image">
             <img src="assets/projects/ServicePortal_Designer.gif"
                  alt="Toy Store Service Portal preview in ServiceNow"
@@ -237,6 +238,61 @@
 
           </div>
         </article>
+
+        <!-- PROJETO 2 (NOVO) -->
+        <article class="project-card reveal" aria-label="Project: Segundo Projeto">
+          <div class="project-image">
+            <img src="assets/projects/incident-list-sync.png.jpeg"
+                 alt="Segundo Projeto preview"
+                 onerror="this.parentElement.classList.add('placeholder')" />
+          </div>
+
+          <div class="project-body">
+            <span class="project-status status-done" data-translate="statusCompleted2">Completed</span>
+            <h3 data-translate="project2Title">Instance-to-Instance (I2I) Incident Integration</h3>
+
+            <div class="project-detail">
+              <strong data-translate="problemLabel">Problem</strong>
+              <p data-translate="project2Problem">
+                Organizations often need to synchronize incidents between different ServiceNow instances. Manual communication can create duplicated work, inconsistent data, and limited visibility across environments.
+              </p>
+            </div>
+
+            <div class="project-detail">
+              <strong data-translate="solutionLabel">Solution</strong>
+              <p data-translate="project2Solution">
+                Developed a practical ServiceNow Instance-to-Instance (I2I) integration lab using REST API and Async Business Rules to automatically synchronize incidents between two instances. The project also implements Journal Fields synchronization, HTTP error handling, and anti-loop logic to ensure reliable communication.
+              </p>
+            </div>
+
+            <div class="project-detail">
+              <strong data-translate="impactLabel">Impact</strong>
+              <p data-translate="project2Impact">
+                Created an automated incident synchronization workflow while gaining hands-on experience with real-world integration challenges, REST troubleshooting, and asynchronous processing in the ServiceNow platform.
+              </p>
+            </div>
+
+            <div class="project-tools">
+              <span>RESTMessageV2</span>
+              <span>Async Business Rules</span>
+              <span>Incident Synchronization</span>
+              <span>REST API</span>
+              <span>HTTP Error Handling</span>
+              <span>Anti-Loop Logic</span>
+              <span>Journal Fields</span>
+            </div>
+
+            <div class="project-actions">
+              <button class="btn btn-small" data-project="2"
+                      data-translate="viewDetails"
+                      aria-label="View details of second project">
+                View Details
+              </button>
+            </div>
+
+          </div>
+        </article>
+
       </div>
     </div>
   </section>

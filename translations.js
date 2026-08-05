@@ -25,7 +25,7 @@ const translations = {
 
     // HERO
     heroEyebrow:  "Hi, I'm Leonardo Rodrigues",
-    heroTitle:    'ServiceNow Developer Jr.',
+    heroTitle:    'ServiceNow Developer',
     heroSubtitle: 'ITSM & Process Automation',
     heroLead:     'Transitioning from business operations into the ServiceNow ecosystem. I build practical ITSM solutions using Flow Designer, App Engine Studio and Service Catalog, supported by a solid background in ERP, business processes and operational routines.',
     viewProjects: 'View Projects',
@@ -38,11 +38,12 @@ const translations = {
 
     // PROJECTS
     projectsTitle:     'Projects',
-    projectsSub:       'Hands-on ServiceNow project covering Service Portal, Record Producer, Flow Designer automation and operational analytics.',
+    projectsSub:       'Hands-on ServiceNow projects covering Service Portal, Record Producer, Flow Designer automation, REST integrations, and operational analytics.',
     viewDetails:       'View Details',
     viewDocumentation: 'View Documentation',
     statusDevelopment: 'In development',
     statusCompleted:   'Completed',
+    statusCompleted2:  'Completed',
     problemLabel:      'Problem',
     solutionLabel:     'Solution',
     impactLabel:       'Impact',
@@ -52,6 +53,12 @@ const translations = {
     projectProblem: 'Internal toy requests were handled by email with no tracking, no approval trail and no visibility into request status.',
     projectSolution:'A custom ServiceNow portal with Record Producer, branded Service Portal interface, Flow Designer automation, critical priority email notifications, analytics dashboard and role-based access control.',
     projectImpact:  'Eliminated manual email-based requests, all items now tracked end-to-end with automated notifications and operational visibility.',
+
+    // Project 2
+    project2Title:   'Instance-to-Instance (I2I) Incident Integration',
+    project2Problem: 'Organizations often need to synchronize incidents between different ServiceNow instances. Manual communication can create duplicated work, inconsistent data, and limited visibility across environments.',
+    project2Solution:'Developed a practical ServiceNow Instance-to-Instance (I2I) integration lab using REST API and Async Business Rules to automatically synchronize incidents between two instances. The project also implements Journal Fields synchronization, HTTP error handling, and anti-loop logic to ensure reliable communication.',
+    project2Impact:  'Created an automated incident synchronization workflow while gaining hands-on experience with real-world integration challenges, REST troubleshooting, and asynchronous processing in the ServiceNow platform.',
 
     // SKILLS
     skillsTitle:       'Skills',
@@ -107,6 +114,17 @@ const translations = {
     gallery7:      '7. Portal Menu Configuration',
     gallery8:      '8. Roles & Security',
     gallery9:      '9. ServiceNow Studio Structure',
+
+    // MODAL — Project 2
+    modal2Intro:   'Hands-on integration lab connecting two ServiceNow instances using REST API and Async Business Rules to enable real-time incident synchronization, notes sync, and automated status handling.',
+    modal2Item1:   'RESTMessageV2 outbound integration setup',
+    modal2Item2:   'Async Business Rules for non-blocking payload dispatch',
+    modal2Item3:   'Bi-directional Journal Fields (Work Notes/Comments) sync',
+    modal2Item4:   'Anti-loop logic & loop prevention headers',
+    modal2Item5:   'Application Log & HTTP status code error handling',
+    gallery2_1:    '1. Incident List Synchronization View',
+    gallery2_2:    '2. Synced Incident Details & Notes',
+    gallery2_3:    '3. REST Execution Logs & Diagnostics',
   },
 
   pt: {
@@ -121,7 +139,7 @@ const translations = {
 
     // HERO
     heroEyebrow:  'Olá, eu sou Leonardo Rodrigues',
-    heroTitle:    'Desenvolvedor ServiceNow Jr.',
+    heroTitle:    'Desenvolvedor ServiceNow',
     heroSubtitle: 'ITSM & Automação de Processos',
     heroLead:     'Estou migrando da área de operações para o ecossistema ServiceNow. Desenvolvo soluções práticas utilizando Flow Designer, App Engine Studio e Service Catalog, com base sólida em ERP, processos de negócio e rotinas operacionais.',
     viewProjects: 'Ver Projetos',
@@ -130,15 +148,16 @@ const translations = {
     // ABOUT
     aboutTitle: 'Sobre Mim',
     aboutText1: 'Iniciei minha trajetória no setor industrial, atuando com processos produtivos, operação de máquinas e controle de qualidade, desenvolvendo disciplina operacional, atenção aos detalhes e mentalidade de melhoria contínua. Mais tarde, migrei para operações comerciais, adquirindo experiência com ERP (TOTVS), CRM, relatórios internos e indicadores operacionais.',
-    aboutText2: 'Hoje meu foco é a plataforma ServiceNow. Estudo para a certificação CSA e desenvolvo projetos práticos com ITSM, Flow Designer, App Engine Studio, Service Catalog e Service Portal, enquanto aprofundo meus fundamentos em JavaScript. Meu objetivo é uma primeira oportunidade como Desenvolvedor Jr., Admin, Suporte ou Consultor ServiceNow.',
+    aboutText2: 'Hoje meu foco é a plataforma ServiceNow. Estudo para a certificação CSA e desenvolvo projetos práticos com ITSM, Flow Designer, App Engine Studio, Service Catalog e Service Portal, enquanto aprofundo meus fundamentos em JavaScript. Meu objetivo é uma primeira oportunidade como Desenvolvedor, Admin, Suporte ou Consultor ServiceNow.',
 
     // PROJECTS
     projectsTitle:     'Projetos',
-    projectsSub:       'Projeto prático em ServiceNow com foco em Service Portal, Record Producer, automação com Flow Designer e análise operacional.',
+    projectsSub:       'Projetos práticos em ServiceNow com foco em Service Portal, Record Producer, automação com Flow Designer, integrações REST e análise operacional.',
     viewDetails:       'Ver Detalhes',
     viewDocumentation: 'Ver Documentação',
     statusDevelopment: 'Em desenvolvimento',
     statusCompleted:   'Concluído',
+    statusCompleted2:  'Concluído',
     problemLabel:      'Problema',
     solutionLabel:     'Solução',
     impactLabel:       'Impacto',
@@ -148,6 +167,12 @@ const translations = {
     projectProblem: 'As solicitações internas eram feitas por e-mail, sem rastreamento, sem trilha de aprovação e sem visibilidade do status.',
     projectSolution:'Um portal customizado no ServiceNow com Record Producer, interface personalizada no Service Portal, automação com Flow Designer, notificação por e-mail para prioridades críticas, dashboard analítico e controle de acesso por perfis.',
     projectImpact:  'Eliminou as solicitações manuais por e-mail, todos os itens agora são rastreados de ponta a ponta com notificações automáticas e visibilidade operacional.',
+
+    // Project 2
+    project2Title:   'Integração de Incidentes Instance-to-Instance (I2I)',
+    project2Problem: 'Organizações frequentemente precisam sincronizar incidentes entre diferentes instâncias do ServiceNow. A comunicação manual pode gerar trabalho duplicado, inconsistência nos dados e baixa visibilidade entre os ambientes.',
+    project2Solution:'Desenvolvimento de um laboratório prático de integração Instance-to-Instance (I2I) no ServiceNow utilizando REST API e Async Business Rules para sincronizar automaticamente incidentes entre duas instâncias. O projeto inclui sincronização de Journal Fields, tratamento de erros HTTP e lógica anti-loop.',
+    project2Impact:  'Criação de um fluxo automatizado de sincronização de incidentes com ganho de experiência prática em desafios reais de integração, solução de problemas em REST e processamento assíncrono na plataforma ServiceNow.',
 
     // SKILLS
     skillsTitle:       'Competências',
@@ -184,7 +209,7 @@ const translations = {
 
     // MODAL — Project 1
     modalIntro:    'Projeto em ServiceNow que simula um portal interno de solicitações para uma loja de brinquedos. Conecta Service Portal, Record Producer, Flow Designer e Platform Analytics para organizar solicitações, automatizar notificações e melhorar a visibilidade operacional.',
-    modalIncludes: 'O projeto inclui:',
+    modalIncludes: 'O projeto includes:',
     modalItem1:    'Experiência customizada no Service Portal',
     modalItem2:    'Record Producer para solicitações de brinquedos',
     modalItem3:    'Pré-visualização da solicitação em mobile',
@@ -203,5 +228,16 @@ const translations = {
     gallery7:      '7. Configuração do Menu do Portal',
     gallery8:      '8. Papéis & Segurança',
     gallery9:      '9. Estrutura no ServiceNow Studio',
+
+    // MODAL — Project 2
+    modal2Intro:   'Laboratório prático de integração conectando duas instâncias ServiceNow via REST API e Async Business Rules para sincronização de incidentes em tempo real, notas e tratamento de status.',
+    modal2Item1:   'Configuração de integração outbound com RESTMessageV2',
+    modal2Item2:   'Async Business Rules para envio assíncrono sem travar a interface',
+    modal2Item3:   'Sincronização bidirecional de Journal Fields (Work Notes e Comentários)',
+    modal2Item4:   'Lógica anti-loop e controle de cabeçalhos',
+    modal2Item5:   'Tratamento de erros e logs de aplicação com códigos HTTP',
+    gallery2_1:    '1. Visão Geral da Lista de Incidentes Sincronizados',
+    gallery2_2:    '2. Detalhes do Incidente e Histórico de Notas',
+    gallery2_3:    '3. Logs de Execução REST e Diagnósticos',
   }
 };
